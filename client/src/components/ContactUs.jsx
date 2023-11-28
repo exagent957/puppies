@@ -6,7 +6,7 @@ function ContactUs() {
       <p>
         JW Farm, 132 RB Orr Rd, Hartselle, AL 35640<br></br>
         Telephone: 256-502-3793<br></br>
-        Email: jwfarm@myfwfarm.com
+        Email: jwfarm@myjwfarm.com
       </p>
     </Wrapper>
   );
