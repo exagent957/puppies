@@ -36,13 +36,13 @@ const links = [
     path: 'gallery-admin',
     icon: <BsImages />,
     adminOnly: true
-  },
-  {
-    text: 'stats',
-    path: 'stats',
-    icon: <IoBarChartSharp />,
-    adminOnly: true
   }
+  // {
+  //   text: 'stats',
+  //   path: 'stats',
+  //   icon: <IoBarChartSharp />,
+  //   adminOnly: true
+  // }
 ];
 
 export default links;

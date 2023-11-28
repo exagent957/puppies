@@ -52,6 +52,7 @@ const Wrapper = styled.section`
     text-align: center;
   }
   .intro h3 {
+    margin-top: 0.5em;
     margin-bottom: 0.5em;
     text-align: center;
   }
@@ -90,7 +91,24 @@ const Wrapper = styled.section`
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
-
+  .puppies-available-container {
+    width: 100%;
+    height: 4em;
+    margin: auto;
+    margin-top: 0.1em;
+    position: relative;
+    padding: 1em;
+    text-align: center;
+  }
+  .puppies-available-link {
+    max-height: 90%;
+    margin: 0em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
   @media (min-width: 992px) {
     .page {
       grid-template-columns: 1fr 400px;

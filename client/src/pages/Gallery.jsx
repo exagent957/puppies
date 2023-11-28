@@ -11,7 +11,11 @@ function Gallery() {
         <hr />
         <h3>JW Farm AKC Labrador Puppies</h3>
         <h5>Enjoy photos of our puppies past and present.</h5>
-        <p>Currently available AKC puppies are displayed HERE.</p>
+        <div className="puppies-available-container">
+          <Link to="/" className="btn puppies-available-link">
+            Currently available AKC puppies are displayed HERE.
+          </Link>
+        </div>
         <hr />
       </div>
       <GalleryCarousel />
