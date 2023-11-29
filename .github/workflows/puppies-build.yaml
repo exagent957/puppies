@@ -38,18 +38,19 @@ jobs:
           SITE_URL: ${{ inputs.site-url }}
           #NODE_ENV: development
           NODE_VERSION: 20.5.1
-        run: npm run setup-production-app
-       # run: node app.js
-
-      - name: Run script
-# uncomment the following lines if you want to add environment variables for this step
-        env:
           MONGODB_URI: mongodb+srv://exagent957:mzFtRrTGjX63nUEt@cse341.9aujsue.mongodb.net/puppiesAPI?retryWrites=true&w=majority
           JWT_SECRET: can-you-keep-a-secret-try-this-1
           JWT_EXPIRES_IN: 90d
           JWT_COOKIE_EXPIRES_IN: 90
+        run: npm run setup-production-app
+             node app.js
+
+      - name: Run script
+# uncomment the following lines if you want to add environment variables for this step
+       # env:
+          
          #MY_SECRET_ENV_VAR: ${{ secrets.MY_SECRET }} # here you can find information how to create secrets: https://docs.github.com/en/actions/security-guides/encrypted-secrets
-        run: node app.js
+       # run: node app.js
 
 # Please do not touch the following action
       - name: Store deployment content
