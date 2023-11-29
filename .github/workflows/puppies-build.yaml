@@ -38,7 +38,7 @@ jobs:
           SITE_URL: ${{ inputs.site-url }}
           #NODE_ENV: development
           NODE_VERSION: 20.5.1
-        run: setup-production-app
+        run: npm run setup-production-app
        # run: node app.js
 
       - name: Run script
