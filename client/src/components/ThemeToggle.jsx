@@ -1,6 +1,5 @@
 import { BsFillSunFill, BsFillMoonFill } from 'react-icons/bs';
 import Wrapper from '../assets/wrappers/ThemeToggle';
-//
 import { useHomeContext } from '../pages/HomeLayout';
 
 const ThemeToggle = () => {

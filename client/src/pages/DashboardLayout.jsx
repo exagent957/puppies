@@ -43,7 +43,7 @@ const DashboardLayout = () => {
     setIsLoggedIn(true);
     setCurrentUser(user);
   }
-  // console.clear();
+  console.clear();
   return (
     <DashboardContext.Provider
       value={{

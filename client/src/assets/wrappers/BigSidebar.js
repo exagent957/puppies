@@ -28,6 +28,7 @@ const Wrapper = styled.aside`
     }
     .nav-links {
       padding-top: 2rem;
+      padding-right: 0.5rem;
       display: flex;
       flex-direction: column;
     }

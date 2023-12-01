@@ -3,8 +3,6 @@ import { Outlet, useLoaderData, useNavigation } from 'react-router-dom';
 import { useContext, createContext } from 'react';
 import { useQuery } from '@tanstack/react-query';
 import { Loading } from '../components';
-import { useDashboardContext } from './DashboardLayout';
-import { set } from 'mongoose';
 
 const allLittersQuery = (params) => {
   const { search, sort, page } = params;

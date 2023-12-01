@@ -1,5 +1,4 @@
-import { FaLocationArrow, FaCalendarAlt, FaPhone, FaStickyNote } from 'react-icons/fa';
-import { MdEmail } from 'react-icons/md';
+import { FaCalendarAlt, FaStickyNote } from 'react-icons/fa';
 import { Link, Form } from 'react-router-dom';
 import { SubmitBtn } from '../components';
 import Wrapper from '../assets/wrappers/GalleryItem';

@@ -15,7 +15,7 @@ const PuppiesSearchContainer = () => {
   //   {}
   // );
   const { searchValues } = usePuppiesContext();
-  const { search, puppySex, puppyColor, litter, sort } = searchValues;
+  const { search, puppySex, puppyColor, sort } = searchValues;
   const submit = useSubmit(); //invokes the useSubmit hook
 
   // debounce feature controls how often form is submitted during key input

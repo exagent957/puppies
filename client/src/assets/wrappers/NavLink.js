@@ -5,7 +5,9 @@ const Wrapper = styled.div`
     display: flex;
     align-items: center;
     color: var(--text-secondary-color);
-    padding: 1rem 0;
+    padding-top: 1rem;
+    padding-right: 0.5rem;
+    padding-bottom: 1rem;
     padding-left: 2.5rem;
     text-transform: capitalize;
     transition: padding-left 0.3s ease-in-out;

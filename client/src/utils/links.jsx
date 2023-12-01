@@ -1,5 +1,5 @@
 import React from 'react';
-import { IoBarChartSharp } from 'react-icons/io5';
+//import { IoBarChartSharp } from 'react-icons/io5';
 import { GiDogHouse } from 'react-icons/gi';
 import { FaDog } from 'react-icons/fa';
 import { ImProfile } from 'react-icons/im';

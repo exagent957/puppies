@@ -1,4 +1,4 @@
-import { FormRow, FormRowSelect, SubmitBtn } from '../components';
+import { FormRow, SubmitBtn } from '../components';
 import Wrapper from '../assets/wrappers/DashboardFormPage';
 import { Form, redirect } from 'react-router-dom';
 import { toast } from 'react-toastify';
@@ -25,8 +25,6 @@ export const action =
 
 const LitterAdd = () => {
   let today = Date();
-  // today = day(today).format('MMM Do, YYYY');
-  const littersArray = [];
   return (
     <Wrapper>
       <Form method="post" className="form">

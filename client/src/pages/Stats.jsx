@@ -1,4 +1,4 @@
 const Stats = () => {
-  return <h1>Stats Page</h1>;
+  return <h3>Stats Page</h3>;
 };
 export default Stats;

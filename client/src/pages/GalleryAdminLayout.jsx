@@ -7,14 +7,7 @@ import { Loading } from '../components';
 const allGalleryItemsQuery = (params) => {
   const { search, sort, page } = params;
   return {
-    queryKey: [
-      'gallery-items',
-      search ?? '',
-      // clientStatus ?? 'all',
-      // clientType ?? 'all',
-      sort ?? 'newest',
-      page ?? 1
-    ],
+    queryKey: ['gallery-items', search ?? '', sort ?? 'newest', page ?? 1],
     queryFn: async () => {
       const { data } = await customFetch.get('/galleryItems', {
         params
